@@ -19,6 +19,6 @@ if numbers.count(user_nu) == 1:
 elif numbers.count(user_nu) < 1:
     numbers.append(user_nu)
 elif numbers.count(user_nu) > 1:
-    numbers.insert((numbers.index(user_nu) - 1) + numbers.count(user_nu), user_nu)
+    numbers.insert((numbers.index(user_nu)) + numbers.count(user_nu), float(user_nu))
 
 print(numbers)
