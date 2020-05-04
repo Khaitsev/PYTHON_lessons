@@ -1,0 +1,5 @@
+myfile = open('sumfile.txt', 'w+', encoding='utf-8')
+print('1 123 545 642 123 33 112 553 22 65 43 12 987 43 232 12', file=myfile)
+myfile.seek(0)
+my_sum = list(map(int, myfile.read().split()))
+print(sum(my_sum))
