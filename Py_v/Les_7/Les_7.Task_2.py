@@ -31,4 +31,4 @@ while len(arr2) < len(ARRAY):
         break
 
 print(arr2)
-print(arr2[-1-1])
+
